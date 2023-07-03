@@ -3,19 +3,19 @@ const carouselInner = document.querySelector('.carousel-inner');
 
 // Replace 'path/to/imageX.jpg' with the actual paths to your images
 const images = [
-  '{% static "HKH1.JPG" %}',
-  '{% static "HKH2.JPG" %}',
-  '{% static "HKH3.JPG" %}',
-  '{% static "HKH4.JPG" %}',
-  '{% static "HKH5.JPG" %}',
-  '{% static "HKH6.JPG" %}',
-  '{% static "HKH7.JPG" %}',
-  '{% static "HKH8.JPG" %}',
-  '{% static "HKH9.JPG" %}',
-  '{% static "HKH10.JPG" %}',
-  '{% static "HKH11.JPG" %}',
-  '{% static "HKH12.JPG" %}',
-  '{% static "HKH13.JPG" %}',
+  "{% static 'HKH1.JPG' %}",
+  "{% static 'HKH2.JPG' %}",
+  "{% static 'HKH3.JPG' %}",
+  "{% static 'HKH4.JPG' %}",
+  "{% static 'HKH5.JPG' %}",
+  "{% static 'HKH6.JPG' %}",
+  "{% static 'HKH7.JPG' %}",
+  "{% static 'HKH8.JPG' %}",
+  "{% static 'HKH9.JPG' %}",
+  "{% static 'HKH10.JPG' %}",
+  "{% static 'HKH11.JPG' %}",
+  "{% static 'HKH12.JPG' %}",
+  "{% static 'HKH13.JPG' %}",
 ];
 
 images.forEach((image, index) => {
