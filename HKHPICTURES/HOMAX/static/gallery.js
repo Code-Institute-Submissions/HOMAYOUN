@@ -1,7 +1,7 @@
 const carouselIndicators = document.querySelector('.carousel-indicators');
 const carouselInner = document.querySelector('.carousel-inner');
 
-// Replace 'path/to/imageX.jpg' with the actual paths to your images
+
 const images = [
   "{% static 'HKH1.JPG' %}",
   "{% static 'HKH2.JPG' %}",
@@ -19,14 +19,14 @@ const images = [
 ];
 
 images.forEach((image, index) => {
-  // Create carousel indicators
+  // carousel indicators
   const indicator = document.createElement('li');
   indicator.setAttribute('data-bs-target', '#carouselExampleIndicators');
   indicator.setAttribute('data-bs-slide-to', index);
   if (index === 0) indicator.classList.add('active');
   carouselIndicators.appendChild(indicator);
 
-  // Create carousel items
+  // carousel items
   const carouselItem = document.createElement('div');
   carouselItem.classList.add('carousel-item');
   if (index === 0) carouselItem.classList.add('active');
