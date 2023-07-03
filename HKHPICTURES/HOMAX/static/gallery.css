@@ -30,7 +30,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 100px); /* Subtract the nav bar height */
+  min-height: calc(100vh - 100px); 
   border-radius: 10%;
 }
 
